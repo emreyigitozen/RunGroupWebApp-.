@@ -24,7 +24,7 @@ namespace RunGroupWebApp.Controllers
             return View(response);
         }
         [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel login)
+        public async Task<IActionResult>Login(LoginViewModel login)
         {
             if (!ModelState.IsValid)
             {
